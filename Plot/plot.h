@@ -31,7 +31,6 @@ private:
     PlotWidget* plot;
     QGraphicsProxyWidget* proxy;
     QColor gradientColor;
-    QString curveTitle;
 };
 
 QML_DECLARE_TYPE(Plot)

@@ -37,12 +37,11 @@ void Plot::setGradientColor(const QColor& color)
 
 QString Plot::getCurveTitle() const
 {
-    return curveTitle;
+    return plot->getCurveTitle();
 }
 
 void Plot::setCurveTitle(const QString& title)
 {
-    curveTitle = title;
     plot->setCurveTitle(title);
     emit curveTitleChanged();
 }
